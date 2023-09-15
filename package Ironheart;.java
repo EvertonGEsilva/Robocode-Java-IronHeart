@@ -15,12 +15,13 @@ public class Ironheart extends AdvancedRobot {
 
     public void run() {
         // Configurações iniciais
-       setColors(Color.red, Color.blue, Color.white, Color.yellow, Color.white);
- // Define as cores do seu tanque
-
+        
+      // Define as cores do  tanque
+        setColors(Color.red, Color.blue, Color.white, Color.yellow, Color.white);
+ 
         // Movimentação do tank em loop
         while (true) {
-            boolean angulo = true; // Declare angulo dentro do loop
+            boolean angulo = true; 
 
             if (angulo) {
                 for (int voltasDir = 0; voltasDir < 4; voltasDir++) {
@@ -47,7 +48,7 @@ public class Ironheart extends AdvancedRobot {
                 }
                 angulo = true;
             }
-            execute(); // Execute após definir os comandos
+            
         }
     }
 
